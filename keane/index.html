@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Keane - Under The Iron Sea</title>
+    <link rel="stylesheet" href="css/example.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
+</head>
+<body>
+    <h1>Keane. Under The Iron Sea.</h1>
+
+          <p>Scroll down</p>
+          <div class="clear"></div>
+     <div class="box">
+     <div class="container">
+        <div class="left">
+                <audio id="grammofon" controls type="audio/mpeg" src="mp3/keane02.mp3">
+                    <source type="audio/mp3" src="mp3/keane02.mp3">
+                </audio>
+                <div id="playlist">
+                    <ul>
+                        <li class="active"><a href="mp3/keane01.mp3">Play</a></li>
+                        <li><a href="mp3/keane02.mp3">Play</a></li>
+                        <li><a href="mp3/keane03.mp3">Play</a></li>
+                        <li><a href="mp3/keane04.mp3">Play</a></li>
+                        <li><a href="mp3/keane05.mp3">Play</a></li>
+                        <li><a href="mp3/keane06.mp3">Play</a></li>
+                        <li><a href="mp3/keane07.mp3" class="extra">Play</a></li>
+                        <li><a href="mp3/keane08.mp3">Play</a></li>
+                        <li><a href="mp3/keane09.mp3">Play</a></li>
+                        <li><a href="mp3/keane10.mp3">Play</a></li>
+                        <li><a href="mp3/keane11.mp3">Play</a></li>
+                        <li><a href="mp3/keane12.mp3">Play</a></li>
+                        <li><a href="mp3/keane13.mp3">Play</a></li>
+                    </ul>
+                </div>
+            </div>
+     <div class="right">
+    <img src="images/vinyl4.png">
+ </div>
+ </div>
+    <script>
+var audio; //Variabeldeklaration
+var tracks; //Variabeldeklaration
+var pList; //Variabeldeklaration
+var current; //Variabeldeklaration
+//var link; //Variabeldeklaration
+var len; //Variabeldeklaration
+
+
+
+start(); /* Kör funktionen, men här ska läggas in någon if-sats för de som har gamla grejor */
+
+function start()
+{
+    current =  0;// Aktuell låt, start med första
+    pList=$('ul'); //variabel för playlist-div
+    tracks = pList.find('li a'); //Lista över alla låtar (array)
+    len = tracks.length; //I aktuellt fall är den 6
+    audio=$('audio'); //Audio-spelarna (array)
+    audio[0].volume=0.50; //volym anges mellan 0-1
+    audio[0].play(); //Spela låten som finns i source
+    pList.find('a').click(function(e){
+        e.preventDefault(); /* Hindra den från att
+        öppna filen som en vanlig länk */ 
+        link=$(this); //Vad man klickat på
+        current = link.parent().index(); /* siffra 0-5 */
+        spela(link, audio[0]);
+    });
+    // Om låten tar slut gör nedanstående
+    audio[0].addEventListener("ended",function(e){
+        current++;
+        if(current == len) //Om man kommit förbi slutet
+        {
+            current = 0; //Aktuell låt ska vara den första
+            link = pList.find('a')[0]; /* a-taggen som gäller nu är den första [0] */
+        }
+        else //Annars... d.v.s. vi har ännu inte nått slutet på spellistan
+        {
+            link = pList.find('a')[current]; //link 
+        }
+        spela($(link),audio[0]);
+    },false);
+} 
+
+function spela(link, player)
+{
+     player.src = link.attr('href'); //Ange ny source till spelaren, d.v.s. det som står inom href
+     var mamma = link.parent(); //hitta föräldern till aktuell a-tag d.v.s. aktuell li-tag 
+     mamma.addClass('active').siblings().removeClass('active'); /* Lägg till class="active" till<br>
+aktuell li-tag och ta bort eventuell class från övriga li-taggar */
+     player.load(); // ladda in låten
+     player.play(); // spela
+}
+</script>
+</div> 
+     </div>
+    <div class="horizon scroll">
+        <img src="images/horizon.png" alt="" />
+    </div>
+    <div class="middle scroll">
+        <img src="images/middle.png" alt="" />
+     </div>
+    
+    <div class="front scroll">
+        <img src="images/front.png" alt="" />
+    </div>
+    <script type="text/javascript">
+    (function($) {
+        $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            height: 14000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+            }
+        });
+    }(jQuery));
+    </script>
+</body>
+</html>
