@@ -1,1 +1,722 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,600);@import url(https://fonts.googleapis.com/css?family=Sanchez);*{padding:0;margin:0}body,html{height:100%;margin:0;padding:0;width:100%}p{font:400 22px lato;text-align:center;margin:0 auto}a,span{text-decoration:none;color:#00c2fc}h2{text-align:center;margin:0 auto}h3{color:#00c2fc;font:400 20px lato;font-size:20px;text-transform:uppercase;text-align:center;margin:0 auto;font-weight:700}.clearfix{zoom:1}.clearfix:after{clear:both;content:".";display:block;height:0;line-height:0;visibility:hidden}.autoscale img{height:100%;width:100%}.flipbook{height:100%;position:relative;width:100%}.flipbook img{display:block;left:0;ms-filter:"alpha(opacity=0)";opacity:0;position:absolute;top:0;webkit-backface-visibility:hidden}.flipbook img.active{ms-filter:"alpha(opacity=100)";opacity:1}.interstitial-region{height:100%;position:relative}.interstitial-region .lerp-a{left:50%;top:0;position:absolute}.interstitial-region .lerp-b{bottom:0;left:50%;position:absolute}.interstitial{background:#000;height:100%;left:0;position:fixed;top:0;width:100%;z-index:-2}.editorial{padding:5em 10em}#first_container{background-color:#e9e9e9;-webkit-box-shadow:0 10px 20px 0 rgba(50,50,50,.1);-moz-box-shadow:0 10px 20px 0 rgba(50,50,50,.1);box-shadow:0 10px 20px 0 rgba(50,50,50,.1)}.Portfolioimg{background:url(images/portfoliowebone.png) no-repeat;position:relative;left:0}.laptopone{background:url(images/ethernal-demo-imac.png) no-repeat;position:relative;display:block;width:611px;height:611px;margin:0 auto}.mockone{position:relative;top:18px;left:23px}.mockone img{width:568px;height:328px}#first_container h1,#second_container h1,#third_container h1{font:400 44px Sanchez;text-align:center;color:#333}#first_container p,#second_container p,#third_container p{width:57%;padding-bottom:10%}.laptop{background:url(images/mac-fiktivia.png) no-repeat;position:relative;display:block;width:1100px;height:611px;margin:50px auto}.mock{position:absolute;top:40px;left:23px;width:563px;height:305px;overflow:auto;overflow-x:hidden}.mock img{display:block;width:100%}.ipad{background:url(images/ipad_png_by_tatiana931220-d5y6avf.png) no-repeat;position:relative;display:block;width:316px;height:495px;margin-right:155px;float:right;margin-top:55px}.mocktwo{position:absolute;top:42px;left:21px;width:274px;height:365px;overflow:auto;overflow:hidden}.mocktwo img{border:none;width:100%}.iphone{background:url(images/iphone5.png) no-repeat;position:relative;display:block;width:150px;height:362px;margin-right:-480px;float:right;margin-top:188px}.mockthree{position:absolute;top:47px;left:13px;width:126px;height:224px;overflow:auto;overflow:hidden}.mockthree img{width:100%;height:270px}#second_container{background-color:#e7e7e7;-webkit-box-shadow:0 10px 20px 0 rgba(50,50,50,.29);-moz-box-shadow:0 10px 20px 0 rgba(50,50,50,.29);box-shadow:0 10px 20px 0 rgba(50,50,50,.29);left:0;top:0;position:relative;z-index:2}.devicetwo h2{color:#00c2fc;margin-left:20px;font:400 1.3em/1.5em Lato;font-weight:700;text-transform:uppercase}.devicetwotext{margin:-100px auto 50px}.devicetwotext h1{margin:0 auto;width:180px;font:400 44px Sanchez;color:#333;text-align:center}.devicetwotext p{width:500px}#third_container{background-color:#e7e7e7;box-shadow:0 10px 20px 0 rgba(50,50,50,.29);left:0;position:relative;top:0;z-index:3}.mockfotoskolan{position:absolute;top:20px;left:23px;width:565px;height:325px;overflow:auto;overflow-x:hidden}.mockfotoskolan img{width:100%}.devicetwo{padding-top:60px;position:relative;top:60px}.devicethreetext h2{color:#00c2fc;margin-left:20px;font:400 1.3em/1.5em Lato;text-transform:uppercase}.devicethreetext{margin:-100px auto 50px}.devicethreetext p{width:500px}#cover{height:100%;position:relative;width:100%}#cover-image{background:#000;height:100%;position:relative;width:100%}#cover-image .lerp-a,#cover-image .lerp-b{position:absolute}#cover-image .lerp-a{left:50%;top:50%}#cover-image .lerp-b{bottom:0;left:50%}#cover-image .text{left:0;position:absolute;top:0}#cover-text{top:0;height:42%;left:0;position:absolute;width:38%;margin:20% 9%}#cover-text h1{color:#fff;font:400 70px/74px Sanchez;font-weight:700;margin:10px auto;text-align:center}#cover-text p{color:#fff;font:400 22px/27px Lato;margin:10px auto}#cover-text #cover-text .photo-link{cursor:pointer;height:2.5%;left:18.35%;position:absolute;top:61.7%;width:19.9%}#cover-text .lerp-a{left:50%;top:50%}header{position:fixed;width:100%;z-index:100;background-color:#383838;height:50px}header h1{float:left;height:29px;width:60px;margin:10px 0 0 24px}header h1 a{height:29px;width:60px;display:block;background:url(images/logo.png) no-repeat;text-indent:-9999px;overflow:hidden}header ul{float:right;height:50px;margin-right:24px}header li{margin:0 0 0 20px;font-family:Sanchez,serif;font-weight:400;display:inline-block;line-height:50px}header a{color:#fff;list-style:none}header li.current a{border-bottom:2px solid #67d2fd}#section-6 h2{font:400 44px Sanchez;color:#fff;font-size:70px}#section-6 p{margin:5px auto;color:#fff}#section-6 .kontakt span.phone{background:url(images/phone.png) no-repeat;line-height:30px;padding-left:30px;padding-bottom:20px;height:50px;margin:10px}#section-6 .kontakt span.mail{background:url(images/mail.png) no-repeat;padding-left:35px;padding-bottom:20px;height:30px;margin:10px}#section-6 .kontakt span.linkedin{background:url(images/linkedin.png) no-repeat;line-height:50px;padding-left:37px;padding-bottom:20px;height:50px;margin:10px}#section-6 .kontakt span.skype{background:url(images/skype.png) no-repeat;line-height:30px;padding-left:35px;padding-bottom:20px;height:40px;margin:10px}#section-6{background-color:#2d2d2d}.zindeximgwithtext{width:600px;margin-right:10%;top:25%;position:relative;float:right}.zindeximgwithtext h2{width:400px;font:400 44px/52px Sanchez;color:#333}zindeximgwithtext p{margin:10px auto}.zindeximgwithtext ul{width:630px;font:400 22px Lato;margin:20px auto;padding-left:41px}.zindeximgwithtext li{background:url(images/checkmark.png) 0 -1px no-repeat;list-style:none;text-indent:35px;line-height:35px;width:50%;float:left;margin-top:5px;margin-bottom:10px;height:30px;font:400 22px Lato;padding-bottom:3px}@media screen and (max-width:900px){#first_container p,#second_container p,#third_container p{font-size:18px;width:80%}#first_container h1,#second_container h1,#third_container h1{font-size:28px}header ul{float:right;height:50px;margin-right:11px}header li{margin:0 0 0 14px;font-family:Sanchez,serif;font-weight:400;display:inline-block;line-height:47px;font-size:11px}header a{color:#fff;list-style:none}header h1{float:left;height:22px;width:60px;margin-left:24px;margin-top:15px}header h1 a{height:20px;width:38px;display:block;background:url(images/smallogo.png) no-repeat;text-indent:-9999px;overflow:hidden}#cover-image,#nav #over a{display:none}#cover{height:500px;background-color:#333}#cover-text{margin:0 auto;position:relative;top:25%;right:0;width:300px}#cover-text h1{font-size:24px}#cover-text h3{font-size:18px}#cover-text p{width:290px;font-size:22px}.mock{overflow:hidden}.mockone img{width:278px;height:159px;top:-7px;left:-12px;position:absolute}.laptop{background:url(images/macfiktiviasmall.png) no-repeat;display:block;height:351px;margin:40px auto 0;position:relative;width:300px}.mock{width:278px;height:151px;top:20px;left:11px;position:absolute}.ipad,.iphone,.iphonemock{display:none}.laptopone{background:url(images/smallimac.png) no-repeat;display:block;height:351px;position:relative;width:300px}.mockfotoskolan{position:absolute;top:10px;left:11px;width:279px;height:160px;overflow:hidden}.zindeximgwithtext{margin:0 auto;position:absolute;top:9%;left:0;right:0;width:300px;height:300px}.zindeximgwithtext h2{font-size:21px;line-height:28px;width:150px}.zindeximgwithtext p{font-size:18px}.zindeximgwithtext ul li{background:url(images/checkmark.png) no-repeat;font-size:18px;line-height:30px;padding-left:10px;display:inline-block;height:30px;margin:4px}.interstitial-region{height:110%;position:relative}.kontakt{margin:20px auto;width:252px}#section-6 h2{font-size:40px}#section-6 .kontakt span{display:block;text-align:left;padding-bottom:0;margin:0 0 10px;width:252px;height:30px;line-height:30px;font:400 18px Lato;padding-left:40px}#section-6 .kontakt span.phone{background:url(images/phone.png) no-repeat;padding-bottom:0}#section-6 .kontakt span.mail{background:url(images/mail.png) no-repeat;padding-bottom:0}#section-6 .kontakt span.linkedin{background:url(images/linkedin.png) no-repeat;padding-bottom:0}#section-6 .kontakt span.skype{background:url(images/skype.png) no-repeat;padding-bottom:0}.devicetwo{margin:0 auto;padding-bottom:5px;padding-top:15px}}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Sanchez';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sanchez'), local('Sanchez-Regular'), url(https://fonts.gstatic.com/s/sanchez/v7/Ycm2sZJORluHnXbIfmlR_T4Hxlw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+p {
+    font: 400 22px lato;
+    text-align: center;
+    margin: 0 auto
+}
+
+a,
+span {
+    text-decoration: none;
+    color: #00c2fc
+}
+
+h2 {
+    text-align: center;
+    margin: 0 auto
+}
+
+h3 {
+    color: #00c2fc;
+    font: 400 20px lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden
+}
+
+.autoscale img {
+    height: 100%;
+    width: 100%
+}
+
+.flipbook {
+    height: 100%;
+    position: relative;
+    width: 100%
+}
+
+.flipbook img {
+    display: block;
+    left: 0;
+    ms-filter: "alpha(opacity=0)";
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    webkit-backface-visibility: hidden
+}
+
+.flipbook img.active {
+    ms-filter: "alpha(opacity=100)";
+    opacity: 1
+}
+
+.interstitial-region {
+    height: 100%;
+    position: relative
+}
+
+.interstitial-region .lerp-a {
+    left: 50%;
+    top: 0;
+    position: absolute
+}
+
+.interstitial-region .lerp-b {
+    bottom: 0;
+    left: 50%;
+    position: absolute
+}
+
+.interstitial {
+    background: #000;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -2
+}
+
+.editorial {
+    padding: 5em 10em
+}
+
+#first_container {
+    background-color: #e9e9e9;
+    -webkit-box-shadow: 0 10px 20px 0 rgba(50, 50, 50, .1);
+    -moz-box-shadow: 0 10px 20px 0 rgba(50, 50, 50, .1);
+    box-shadow: 0 10px 20px 0 rgba(50, 50, 50, .1)
+}
+
+.Portfolioimg {
+    background: url(images/portfoliowebone.png) no-repeat;
+    position: relative;
+    left: 0
+}
+
+.laptopone {
+    background: url(images/ethernal-demo-imac.png) no-repeat;
+    position: relative;
+    display: block;
+    width: 611px;
+    height: 611px;
+    margin: 0 auto
+}
+
+.mockone {
+    position: relative;
+    top: 18px;
+    left: 23px
+}
+
+.mockone img {
+    width: 568px;
+    height: 328px
+}
+
+#first_container h1,
+#second_container h1,
+#third_container h1 {
+    font: 400 44px Sanchez;
+    text-align: center;
+    color: #333
+}
+
+#first_container p,
+#second_container p,
+#third_container p {
+    width: 57%;
+    padding-bottom: 10%
+}
+
+.laptop {
+    background: url(images/mac-fiktivia.png) no-repeat;
+    position: relative;
+    display: block;
+    width: 1100px;
+    height: 611px;
+    margin: 50px auto
+}
+
+.mock {
+    position: absolute;
+    top: 40px;
+    left: 23px;
+    width: 563px;
+    height: 305px;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.mock img {
+    display: block;
+    width: 100%
+}
+
+.ipad {
+    background: url(images/ipad_png_by_tatiana931220-d5y6avf.png) no-repeat;
+    position: relative;
+    display: block;
+    width: 316px;
+    height: 495px;
+    margin-right: 155px;
+    float: right;
+    margin-top: 55px
+}
+
+.mocktwo {
+    position: absolute;
+    top: 42px;
+    left: 21px;
+    width: 274px;
+    height: 365px;
+    overflow: auto;
+    overflow: hidden
+}
+
+.mocktwo img {
+    border: none;
+    width: 100%
+}
+
+.iphone {
+    background: url(images/iphone5.png) no-repeat;
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 362px;
+    margin-right: -480px;
+    float: right;
+    margin-top: 188px
+}
+
+.mockthree {
+    position: absolute;
+    top: 47px;
+    left: 13px;
+    width: 126px;
+    height: 224px;
+    overflow: auto;
+    overflow: hidden
+}
+
+.mockthree img {
+    width: 100%;
+    height: 270px
+}
+
+#second_container {
+    background-color: #e7e7e7;
+    -webkit-box-shadow: 0 10px 20px 0 rgba(50, 50, 50, .29);
+    -moz-box-shadow: 0 10px 20px 0 rgba(50, 50, 50, .29);
+    box-shadow: 0 10px 20px 0 rgba(50, 50, 50, .29);
+    left: 0;
+    top: 0;
+    position: relative;
+    z-index: 2
+}
+
+.devicetwo h2 {
+    color: #00c2fc;
+    margin-left: 20px;
+    font: 400 1.3em/1.5em Lato;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.devicetwotext {
+    margin: -100px auto 50px
+}
+
+.devicetwotext h1 {
+    margin: 0 auto;
+    width: 180px;
+    font: 400 44px Sanchez;
+    color: #333;
+    text-align: center
+}
+
+.devicetwotext p {
+    width: 500px
+}
+
+#third_container {
+    background-color: #e7e7e7;
+    box-shadow: 0 10px 20px 0 rgba(50, 50, 50, .29);
+    left: 0;
+    position: relative;
+    top: 0;
+    z-index: 3
+}
+
+.mockfotoskolan {
+    position: absolute;
+    top: 20px;
+    left: 23px;
+    width: 565px;
+    height: 325px;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.mockfotoskolan img {
+    width: 100%
+}
+
+.devicetwo {
+    padding-top: 60px;
+    position: relative;
+    top: 60px
+}
+
+.devicethreetext h2 {
+    color: #00c2fc;
+    margin-left: 20px;
+    font: 400 1.3em/1.5em Lato;
+    text-transform: uppercase
+}
+
+.devicethreetext {
+    margin: -100px auto 50px
+}
+
+.devicethreetext p {
+    width: 500px
+}
+
+#cover {
+    height: 100%;
+    position: relative;
+    width: 100%
+}
+
+#cover-image {
+    background: #000;
+    height: 100%;
+    position: relative;
+    width: 100%
+}
+
+#cover-image .lerp-a,
+#cover-image .lerp-b {
+    position: absolute
+}
+
+#cover-image .lerp-a {
+    left: 50%;
+    top: 50%
+}
+
+#cover-image .lerp-b {
+    bottom: 0;
+    left: 50%
+}
+
+#cover-image .text {
+    left: 0;
+    position: absolute;
+    top: 0
+}
+
+#cover-text {
+    top: 0;
+    height: 42%;
+    left: 0;
+    position: absolute;
+    width: 38%;
+    margin: 20% 9%
+}
+
+#cover-text h1 {
+    color: #fff;
+    font: 400 70px/74px Sanchez;
+    font-weight: 700;
+    margin: 10px auto;
+    text-align: center
+}
+
+#cover-text p {
+    color: #fff;
+    font: 400 22px/27px Lato;
+    margin: 10px auto
+}
+
+#cover-text #cover-text .photo-link {
+    cursor: pointer;
+    height: 2.5%;
+    left: 18.35%;
+    position: absolute;
+    top: 61.7%;
+    width: 19.9%
+}
+
+#cover-text .lerp-a {
+    left: 50%;
+    top: 50%
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #383838;
+    height: 50px
+}
+
+header h1 {
+    float: left;
+    height: 29px;
+    width: 60px;
+    margin: 10px 0 0 24px
+}
+
+header h1 a {
+    height: 29px;
+    width: 60px;
+    display: block;
+    background: url(images/logo.png) no-repeat;
+    text-indent: -9999px;
+    overflow: hidden
+}
+
+header ul {
+    float: right;
+    height: 50px;
+    margin-right: 24px
+}
+
+header li {
+    margin: 0 0 0 20px;
+    font-family: Sanchez, serif;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 50px
+}
+
+header a {
+    color: #fff;
+    list-style: none
+}
+
+header li.current a {
+    border-bottom: 2px solid #67d2fd
+}
+
+#section-6 h2 {
+    font: 400 44px Sanchez;
+    color: #fff;
+    font-size: 70px
+}
+
+#section-6 p {
+    margin: 5px auto;
+    color: #fff
+}
+
+#section-6 .kontakt span.phone {
+    background: url(images/phone.png) no-repeat;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    height: 50px;
+    margin: 10px
+}
+
+#section-6 .kontakt span.mail {
+    background: url(images/mail.png) no-repeat;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    height: 30px;
+    margin: 10px
+}
+
+#section-6 .kontakt span.linkedin {
+    background: url(images/linkedin.png) no-repeat;
+    line-height: 50px;
+    padding-left: 37px;
+    padding-bottom: 20px;
+    height: 50px;
+    margin: 10px
+}
+
+#section-6 .kontakt span.skype {
+    background: url(images/skype.png) no-repeat;
+    line-height: 30px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    height: 40px;
+    margin: 10px
+}
+
+#section-6 {
+    background-color: #2d2d2d
+}
+
+.zindeximgwithtext {
+    width: 600px;
+    margin-right: 10%;
+    top: 25%;
+    position: relative;
+    float: right
+}
+
+.zindeximgwithtext h2 {
+    width: 400px;
+    font: 400 44px/52px Sanchez;
+    color: #333
+}
+
+zindeximgwithtext p {
+    margin: 10px auto
+}
+
+.zindeximgwithtext ul {
+    width: 630px;
+    font: 400 22px Lato;
+    margin: 20px auto;
+    padding-left: 41px
+}
+
+.zindeximgwithtext li {
+    background: url(images/checkmark.png) 0 -1px no-repeat;
+    list-style: none;
+    text-indent: 35px;
+    line-height: 35px;
+    width: 50%;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    font: 400 22px Lato;
+    padding-bottom: 3px
+}
+
+@media screen and (max-width:900px) {
+    #first_container p,
+    #second_container p,
+    #third_container p {
+        font-size: 18px;
+        width: 80%
+    }
+    #first_container h1,
+    #second_container h1,
+    #third_container h1 {
+        font-size: 28px
+    }
+    header ul {
+        float: right;
+        height: 50px;
+        margin-right: 11px
+    }
+    header li {
+        margin: 0 0 0 14px;
+        font-family: Sanchez, serif;
+        font-weight: 400;
+        display: inline-block;
+        line-height: 47px;
+        font-size: 11px
+    }
+    header a {
+        color: #fff;
+        list-style: none
+    }
+    header h1 {
+        float: left;
+        height: 22px;
+        width: 60px;
+        margin-left: 24px;
+        margin-top: 15px
+    }
+    header h1 a {
+        height: 20px;
+        width: 38px;
+        display: block;
+        background: url(images/smallogo.png) no-repeat;
+        text-indent: -9999px;
+        overflow: hidden
+    }
+    #cover-image,
+    #nav #over a {
+        display: none
+    }
+    #cover {
+        height: 500px;
+        background-color: #333
+    }
+    #cover-text {
+        margin: 0 auto;
+        position: relative;
+        top: 25%;
+        right: 0;
+        width: 300px
+    }
+    #cover-text h1 {
+        font-size: 24px
+    }
+    #cover-text h3 {
+        font-size: 18px
+    }
+    #cover-text p {
+        width: 290px;
+        font-size: 22px
+    }
+    .mock {
+        overflow: hidden
+    }
+    .mockone img {
+        width: 278px;
+        height: 159px;
+        top: -7px;
+        left: -12px;
+        position: absolute
+    }
+    .laptop {
+        background: url(images/macfiktiviasmall.png) no-repeat;
+        display: block;
+        height: 351px;
+        margin: 40px auto 0;
+        position: relative;
+        width: 300px
+    }
+    .mock {
+        width: 278px;
+        height: 151px;
+        top: 20px;
+        left: 11px;
+        position: absolute
+    }
+    .ipad,
+    .iphone,
+    .iphonemock {
+        display: none
+    }
+    .laptopone {
+        background: url(images/smallimac.png) no-repeat;
+        display: block;
+        height: 351px;
+        position: relative;
+        width: 300px
+    }
+    .mockfotoskolan {
+        position: absolute;
+        top: 10px;
+        left: 11px;
+        width: 279px;
+        height: 160px;
+        overflow: hidden
+    }
+    .zindeximgwithtext {
+        margin: 0 auto;
+        position: absolute;
+        top: 9%;
+        left: 0;
+        right: 0;
+        width: 300px;
+        height: 300px
+    }
+    .zindeximgwithtext h2 {
+        font-size: 21px;
+        line-height: 28px;
+        width: 150px
+    }
+    .zindeximgwithtext p {
+        font-size: 18px
+    }
+    .zindeximgwithtext ul li {
+        background: url(images/checkmark.png) no-repeat;
+        font-size: 18px;
+        line-height: 30px;
+        padding-left: 10px;
+        display: inline-block;
+        height: 30px;
+        margin: 4px
+    }
+    .interstitial-region {
+        height: 110%;
+        position: relative
+    }
+    .kontakt {
+        margin: 20px auto;
+        width: 252px
+    }
+    #section-6 h2 {
+        font-size: 40px
+    }
+    #section-6 .kontakt span {
+        display: block;
+        text-align: left;
+        padding-bottom: 0;
+        margin: 0 0 10px;
+        width: 252px;
+        height: 30px;
+        line-height: 30px;
+        font: 400 18px Lato;
+        padding-left: 40px
+    }
+    #section-6 .kontakt span.phone {
+        background: url(images/phone.png) no-repeat;
+        padding-bottom: 0
+    }
+    #section-6 .kontakt span.mail {
+        background: url(images/mail.png) no-repeat;
+        padding-bottom: 0
+    }
+    #section-6 .kontakt span.linkedin {
+        background: url(images/linkedin.png) no-repeat;
+        padding-bottom: 0
+    }
+    #section-6 .kontakt span.skype {
+        background: url(images/skype.png) no-repeat;
+        padding-bottom: 0
+    }
+    .devicetwo {
+        margin: 0 auto;
+        padding-bottom: 5px;
+        padding-top: 15px
+    }
+}
