@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.54b81e15.chunk.css",
+    "main.js": "/static/js/main.3ecf088b.chunk.js",
+    "main.js.map": "/static/js/main.3ecf088b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.41a1679d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.41a1679d.js.map",
+    "static/js/2.554b1aea.chunk.js": "/static/js/2.554b1aea.chunk.js",
+    "static/js/2.554b1aea.chunk.js.map": "/static/js/2.554b1aea.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.de274e7cfe9b78e797b6b593fbe60012.js": "/precache-manifest.de274e7cfe9b78e797b6b593fbe60012.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.54b81e15.chunk.css.map": "/static/css/main.54b81e15.chunk.css.map",
+    "static/js/2.554b1aea.chunk.js.LICENSE.txt": "/static/js/2.554b1aea.chunk.js.LICENSE.txt",
+    "static/media/EdmundHusserl.mp4": "/static/media/EdmundHusserl.50f5f0f9.mp4",
+    "static/media/JeremyBentham.jpg": "/static/media/JeremyBentham.97495309.jpg",
+    "static/media/MichelFoucault.mp4": "/static/media/MichelFoucault.b9d88a54.mp4",
+    "static/media/aesthetics.jpg": "/static/media/aesthetics.203b2a6b.jpg",
+    "static/media/bg1.svg": "/static/media/bg1.3d238483.svg",
+    "static/media/epistemology.jpg": "/static/media/epistemology.7004a6da.jpg",
+    "static/media/ethics.jpg": "/static/media/ethics.a5ec5464.jpg",
+    "static/media/loading.svg": "/static/media/loading.c5590569.svg",
+    "static/media/lyceum.svg": "/static/media/lyceum.d2e101a6.svg",
+    "static/media/metaphysics.jpg": "/static/media/metaphysics.0fbab2f2.jpg",
+    "static/media/metaphysics_introduction.jpg": "/static/media/metaphysics_introduction.8297a591.jpg",
+    "static/media/philosophyofmind.jpg": "/static/media/philosophyofmind.e313145f.jpg",
+    "static/media/postmodernism.jpg": "/static/media/postmodernism.aea662e8.jpg",
+    "static/media/sartre.mp4": "/static/media/sartre.08238ce7.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41a1679d.js",
+    "static/js/2.554b1aea.chunk.js",
+    "static/css/main.54b81e15.chunk.css",
+    "static/js/main.3ecf088b.chunk.js"
+  ]
+}
